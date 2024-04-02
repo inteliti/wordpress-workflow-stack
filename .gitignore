@@ -1,0 +1,40 @@
+# Environments
+.env
+
+# Ignore core WordPress files
+public/wp-admin/
+public/wp-includes/
+
+# Ignore WordPress configuration files
+public/wp-config.php
+public/wp-content/advanced-cache.php
+public/wp-content/backup-db/
+public/wp-content/backups/
+public/wp-content/blogs.dir/
+public/wp-content/cache/
+public/wp-content/upgrade/
+public/wp-content/uploads/
+public/wp-content/wp-cache-config.php
+public/wp-content/plugins/hello.php
+
+# Ignore WordPress database backups
+*.sql
+*.sql.gz
+
+# Ignore WordPress cache and log files
+public/wp-content/cache/
+public/wp-content/upgrade/
+public/wp-content/debug.log
+
+# Ignore WordPress specific files
+public/.htaccess
+public/license.txt
+public/readme.html
+public/sitemap.xml
+public/sitemap.xml.gz
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
